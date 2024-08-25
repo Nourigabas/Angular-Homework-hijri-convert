@@ -1,0 +1,32 @@
+mat-card {
+    width: 50%;
+    margin-left: calc(50% / 2);
+    margin-top: calc(20% / 2);
+}
+
+mat-card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px grey solid;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+mat-card-title, mat-card-subtitle {
+    text-align: center;
+    margin-bottom: 15px ;
+}
+
+mat-card-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+h2 {
+    margin-left: 30px;
+    margin-right: 30px
+}
+

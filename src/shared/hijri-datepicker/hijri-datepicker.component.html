@@ -1,0 +1,7 @@
+<mat-form-field>
+    <mat-label>إختر تاريخاً هجرياً</mat-label>
+    <input matInput [matDatepicker]="dp" [(ngModel)]="date" (dateChange)="onDateChange()"/>
+    <mat-hint>yyyy/mm/dd</mat-hint>
+    <mat-datepicker-toggle matIconSuffix [for]="dp"></mat-datepicker-toggle>
+    <mat-datepicker #dp></mat-datepicker>
+</mat-form-field>
